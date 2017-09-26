@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>training popup</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="./styles/scrollbar.css" type="text/css" />
+	<link rel="stylesheet" href="./styles/home.css" type="text/css" />
+	<script src="./scripts/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./scripts/scrollbar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./scripts/popup.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<section class="c-height">
+		<span class="c-height--btn js-more">查看更多</span>
+	</section>
+	<div class="c-popup--bg js-bg"></div>
+	<div class="c-popup-wrapper">
+		<span class="js-close-btn">x</span>
+		<div class="c-popup">
+			<h2>jQuery custom content scroller</h2>
+			<p>Highly customizable custom scrollbar jQuery plugin. Features include vertical and/or horizontal scrollbar(s), adjustable scrolling momentum, mouse-wheel (via jQuery mousewheel plugin), keyboard and touch support, ready-to-use themes and customization via CSS, RTL direction support, option parameters for full control of scrollbar functionality, methods for triggering actions like scroll-to, update, destroy etc., user-defined callbacks and more.</p>
+			<h3>How to use it</h3>
+			<p>Get started by downloading the archive which contains the plugin files (and a large amount of HTML demos and examples). Extract and upload jquery.mCustomScrollbar.concat.min.js, jquery.mCustomScrollbar.css and mCSB_buttons.png to your web server (alternatively you can load plugin files from a CDN).</p>
+			<p>The element(s) you want to add scrollbar(s) should have the typical CSS properties of an overflowed block which are a height (or max-height) value, an overflow value of auto (or hidden) and content long enough to require scrolling. For horizontal scrollbar, the element should have a width (or max-width) value set.If you prefer to set your element’s height/width via javascript, you can use the setHeight/setWidth option parameters.</p>
+			<p>Initialize via HTML Add the class mCustomScrollbar to any element you want to add custom scrollbar(s) with default options. Optionally, set its axis via the HTML data attribute data-mcs-axis (e.g. "x" for horizontal and "y" for vertical) and its theme via data-mcs-theme. For example:</p>
+			<p>Set the position of scrollbar in relation to content. vailable values: "inside", "outside". Setting scrollbarPosition: "inside" (default) makes scrollbar appear inside the element. Setting scrollbarPosition: "outside" makes scrollbar appear outside the element. Note that setting the value to "outside" requires your element (or parent elements) to have CSS position: relative (otherwise the scrollbar will be positioned in relation to document’s root element).</p>
+			<p>Set the amount of scrolling momentum as animation duration in milliseconds.
+Higher value equals greater scrolling momentum which translates to smoother/more progressive animation. Set to 0 to disable.</p>
+<p>Enable or disable auto-adjusting scrollbar dragger length in relation to scrolling amount (same bahavior with browser’s native scrollbar).
+Set autoDraggerLength: false when you want your scrollbar to (always) have a fixed size.</p>
+<p>Enable or disable auto-hiding the scrollbar when inactive.
+Setting autoHideScrollbar: true will hide the scrollbar(s) when scrolling is idle and/or cursor is out of the scrolling area.
+Please note that some special themes like “minimal” overwrite this option.</p>
+		</div>
+	</div>
+</body>
+</html>
